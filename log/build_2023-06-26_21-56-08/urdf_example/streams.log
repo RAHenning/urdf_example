@@ -1,0 +1,61 @@
+[0.019s] Invoking command in '/home/henning/urdf_example/build/urdf_example': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/henning/urdf_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/henning/urdf_example/install/urdf_example
+[0.126s] -- The C compiler identification is GNU 11.3.0
+[0.198s] -- The CXX compiler identification is GNU 11.3.0
+[0.206s] -- Detecting C compiler ABI info
+[0.326s] -- Detecting C compiler ABI info - done
+[0.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.327s] -- Detecting C compile features
+[0.328s] -- Detecting C compile features - done
+[0.332s] -- Detecting CXX compiler ABI info
+[0.471s] -- Detecting CXX compiler ABI info - done
+[0.487s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.487s] -- Detecting CXX compile features
+[0.488s] -- Detecting CXX compile features - done
+[0.491s] -- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.717s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.814s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.850s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.956s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.981s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.982s] -- Configured cppcheck include dirs: 
+[0.982s] -- Configured cppcheck exclude dirs and/or files: 
+[1.010s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.011s] -- Configured cpplint exclude dirs and/or files: 
+[1.016s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.016s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.023s] -- Added test 'lint_cmake' to check CMake code style
+[1.026s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.051s] -- Added test 'uncrustify' to check C / C++ code style
+[1.051s] -- Configured uncrustify additional arguments: 
+[1.054s] -- Added test 'xmllint' to check XML markup files
+[1.056s] -- Configuring done
+[1.063s] -- Generating done
+[1.066s] -- Build files have been written to: /home/henning/urdf_example/build/urdf_example
+[1.071s] Invoked command in '/home/henning/urdf_example/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/henning/urdf_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/henning/urdf_example/install/urdf_example
+[1.077s] Invoking command in '/home/henning/urdf_example/build/urdf_example': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/henning/urdf_example/build/urdf_example -- -j2 -l2
+[1.132s] Invoked command in '/home/henning/urdf_example/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/henning/urdf_example/build/urdf_example -- -j2 -l2
+[1.186s] Invoking command in '/home/henning/urdf_example/build/urdf_example': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/henning/urdf_example/build/urdf_example
+[1.201s] -- Install configuration: ""
+[1.202s] -- Execute custom install script
+[1.204s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/description/example_gazebo.xacro
+[1.230s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/description/example_include.xacro
+[1.252s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/description/example_robot.urdf.xacro
+[1.265s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/launch/rsp.launch.py
+[1.276s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/launch/rsp_sim.launch.py
+[1.296s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/worlds/test_world.world
+[1.313s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/ament_index/resource_index/package_run_dependencies/urdf_example
+[1.325s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/ament_index/resource_index/parent_prefix_path/urdf_example
+[1.337s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/environment/ament_prefix_path.sh
+[1.348s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/environment/ament_prefix_path.dsv
+[1.360s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/environment/path.sh
+[1.373s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/environment/path.dsv
+[1.383s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/local_setup.bash
+[1.396s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/local_setup.sh
+[1.411s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/local_setup.zsh
+[1.422s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/local_setup.dsv
+[1.439s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/package.dsv
+[1.453s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/ament_index/resource_index/packages/urdf_example
+[1.465s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig.cmake
+[1.475s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig-version.cmake
+[1.486s] -- Symlinking: /home/henning/urdf_example/install/urdf_example/share/urdf_example/package.xml
+[1.502s] Invoked command in '/home/henning/urdf_example/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/henning/urdf_example/build/urdf_example
